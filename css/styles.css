@@ -1,0 +1,166 @@
+/* Cristian Dominguez webd 164 */
+
+body{
+    background-color: #151515;
+}
+
+#wrapper{
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+}
+
+.flow, .final-gallery{
+    display: flex;
+    flex-direction: row;
+}
+
+.flow-vertical{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.final-gallery{
+    padding-left: 0;
+    list-style: none;
+    justify-content: center;
+    gap: 10px;
+}
+
+.final-gallery-img{
+    display: inline;
+    align-content: center;
+}
+
+.final-gallery .final-gallery-img img{
+    transition: .75s ease;
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+}
+
+.final-gallery .final-gallery-img img:hover{
+    -webkit-transform: scale(2.25);
+    -ms-transform: scale(2.25);
+    transform: scale(2.25);
+    transition: .75s ease;
+}
+
+#info-div, #magazine-div, #sliding-gallery, #final-gallery-div, footer{
+    padding-left: 4em;
+    padding-right: 4em;
+}
+
+#info-div, #magazine-div, #sliding-gallery{
+    flex: 1;
+}
+#info-div p{
+    text-align: right;
+}
+
+#sliding-gallery{
+    padding-top: 100px;
+    text-align: center;
+}
+
+#sliding-img{
+    width: 60%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+#logo{
+    width: 35;
+    height: 35%;
+    padding-top: 25%;
+}
+
+.with-border{
+    width: 100%;
+    text-align: center;
+    border-bottom: 3px solid #e2e1df; 
+    line-height: 0.1em;
+    margin: 10px 0 50px;
+}
+
+.with-border span{
+    background-color: #151515;
+    padding: 0 10px;
+}
+
+footer{
+    text-align: center;
+}
+
+h1, h2{
+    font-family: 'EB Garamond', serif;
+    color: #E2E1DF;
+}
+
+h1{
+    font-size: 3.5em;
+    text-align: center;
+}
+
+h2{
+    text-align: right;
+}
+
+p, button{
+    font-family: 'Cutive Mono', monospace;
+}
+
+p{
+    font-size: 1.25em;
+    color: #e2e1df;
+}
+
+span{
+    font-size: 1.15em;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+button{
+    background-color: #151515;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #e2e1df;
+    font-size: 1.375em;
+}
+
+button:hover{
+    color: #b50e13;
+    border-bottom: 1px solid #b50e13;
+}
+
+u{
+    text-decoration: none;
+    border-bottom:1px solid #e2e1df70;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link, a:visited, button{
+    color: #E2E1DF;
+}
+
+a:hover{
+    color: #b50e13;
+}
+
+/* @media (min-width: 750px) {
+    
+}
+
+@media (min-width: 1024){
+
+} */
